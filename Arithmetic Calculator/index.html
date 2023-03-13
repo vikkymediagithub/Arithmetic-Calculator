@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Arithmetic operators entering two values</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <center>
+      <h1>Arithmetic operators entering two values</h1>
+      <script language="javascript">
+         function Calculator (text1, text2) {
+            let result, txt1, txt2 ;
+               txt1 = prompt("Enter your first number ");
+               txt2 = prompt(" Enter your second number ");
+               txt1 = parseInt(txt1);
+               txt2 = parseInt(txt2);
+               sum = (txt1 + txt2);
+               subtraction = (txt1 - txt2);
+               multiplication = (txt1 * txt2);
+               division = (txt1 / txt2);
+               module = (txt1 % txt2);
+               increment = (txt1 ++ );
+               decrement = (txt1 -- );
+               alert(" The result for the sum is: " + sum );  
+               alert(" The result for the subtraction is: " + subtraction);
+               alert(" The result for the multiplication is:  " + multiplication );
+               alert("The result for the division is: " + division );
+               alert("The result for the module is: " + module  );
+               alert("The result for the increment is: " + increment );
+               alert("The result for the decrement is: " + decrement );
+               alert(" IF IT WORKED FOR YOU, HELP ME SUBSCRIBE TO MY CHANNEL");
+               alert("THANK YOU");
+         }
+      </script>
+      <p>You can click on the button below 👇👇👇</p>
+      <p>To calculate the arithmetic operator for entering two value 👇</p>
+
+      <!-- Form -->
+      <form name="form1">
+         👉 <button class="button" value="calculate" onclick= "Calculator()"> Calculate </button>👈
+      </form>
+   </center>
+</body>
+</html>

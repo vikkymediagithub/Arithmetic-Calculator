@@ -1,0 +1,30 @@
+body {
+    background-image:linear-gradient(to right, blue, yellow);
+}
+
+.button {
+    padding: 15px 25px;
+    background-color: crimson;
+    color: cornsilk;
+    font-size: 24px;
+    border: none;
+    width: 200px;
+    text-align: center;
+    padding: 20px;
+    overflow: hidden;
+    cursor: pointer;
+    text-decoration: 0.4s;
+    outline: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+
+.button:hover {
+    background-color:green;
+}
+
+.button:active {
+    background-color: crimson;
+    box-shadow: 0 5px #666;
+    transform:translateY(4px);
+}
